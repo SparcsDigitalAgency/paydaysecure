@@ -122,6 +122,129 @@
   <div id="gotoTop" class="icon-angle-up"></div>
 
   <!-- External JavaScripts
+    <script type="text/javascript">
+   function main_page_form_submit(){
+    if(!jQuery('#consent').is(':checked'))
+    {
+        jQuery('#consent_title').addClass('error');
+        return false;
+    }else{
+        return true;
+    }
+}
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-24740586-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+ <script language="JavaScript"><!--
+function validatecontactForm() 
+{
+ var okSoFar=true
+ with (document.phpformmailer)
+ {
+  var foundAt = email.value.indexOf("@",0)
+   if (name.value=="" && okSoFar)
+  {
+    okSoFar=false
+    alert("Please enter your name.")
+    name.focus()
+  }
+  if (foundAt < 1 && okSoFar)
+  {
+    okSoFar = false
+    alert ("Please enter a valid email address.")
+    email.focus()
+  }
+ 
+  if (thesubject.value=="" && okSoFar)
+  {
+    okSoFar=false
+    alert("Please enter your subject.")
+    thesubject.focus()
+  }
+  if (themessage.value=="" && okSoFar)
+  {
+    okSoFar=false
+    alert("Please enter the details for your enquiry.")
+    themessage.focus()
+  }
+  if (okSoFar==true)  
+  {
+   block_spam_bots.value=4*3;//spam bots currently can not read JavaScript, if could then they'd fail the maths!
+   submit();                  // do check for updatea often at:  www.TheDemoSite.co.uk 
+  } 
+ }
+}
+// --></script>
+
+
+<script language="JavaScript"><!--
+function validateForm() 
+
+{
+  var okSoFar=true
+ 
+  with (document.ShortForm){
+    
+  //document.getElementById("First-Name").classList.remove("errorTextBox")
+  //document.getElementById("Zip").classList.remove("errorTextBox")
+  document.getElementById("EmailID").classList.remove("errorTextBox")
+  
+  
+  //var foundAt     = Email.value.indexOf("@",0)
+  var emailPattern  = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/
+  var termscheck    = document.getElementById("consent")
+  var consemtTitle  = document.getElementById("consent_title")
+  
+ 
+   if (FirstName.value=="" || FirstName.value=="FirstName")
+  {
+    okSoFar=false
+  document.getElementById("First-Name").classList.add("errorTextBox")
+  }
+  
+   /*
+  
+ if (foundAt.value=="" || foundAt < 1)
+  {
+    okSoFar = false
+    document.getElementById("EmailID").classList.add("errorTextBox")
+  }
+
+  if (ZipCode.value=="" || ZipCode.value=="Zip" )
+  {
+    okSoFar=false
+    document.getElementById("Zip").classList.add("errorTextBox")
+  }
+  */
+  
+    if(Email.value=='' || Email.value=='Email' || !emailPattern.test(Email.value))
+      {
+        okSoFar = false
+      document.getElementById("EmailID").classList.add("errorTextBox")
+    }
+   
+    if(termscheck.checked == false)
+      {
+        okSoFar=false
+        consemtTitle.classList.add("error")
+      }
+    
+    if (okSoFar==true)  
+      {
+        submit();
+      } 
+ }
+}
+// --></script>
   ============================================= -->
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
@@ -136,6 +259,89 @@
       $( "#side-navigation" ).tabs({ show: { effect: "fade", duration: 400 } });
     });
   </script>
+
+  <?php if ($contact): ?> 
+   <script type="text/javascript">
+$(document).ready(function() {
+    $("#submit_btn").click(function() { 
+
+
+        //get input field values
+        var subject         = $('input[name=subject]').val(); 
+        var user_name       = $('input[name=name]').val(); 
+        var user_email      = $('input[name=email]').val();
+        var user_message    = $('textarea[name=message]').val();
+        
+        //simple validation at client's end
+        //we simply change border color to red if empty field using .css()
+
+       
+
+        var proceed = true;
+        if(user_name==""){ 
+            $('input[name=name]').css('border-color','red'); 
+            proceed = false;
+        }
+         if(subject==""){ 
+            $('input[name=subject]').css('border-color','red'); 
+            proceed = false;
+        }
+        if(user_email==""){ 
+            $('input[name=email]').css('border-color','red'); 
+            proceed = false;
+        }
+        if(user_message=="") {  
+            $('textarea[name=message]').css('border-color','red'); 
+            proceed = false;
+        }
+
+        //everything looks good! proceed...
+        if(proceed) 
+        {
+            //data to be sent to server
+            post_data = {'subject':subject,'userName':user_name, 'userEmail':user_email, 'userMessage':user_message};
+            
+         //Ajax loading gif
+         $("#dvloader").show();
+         
+            //Ajax post data to server
+            $.post('contact_me', post_data, function(response){ 
+         
+         $("#dvloader").hide(); 
+
+                //load json data from server and output message     
+            if(response.type == 'error')
+            {
+               output = '<div class="error">'+response.text+'</div>';
+            }else{
+                output = '<div class="success">'+response.text+'</div>';
+               
+               //reset values in all input fields
+               $('#contact_form input').val(''); 
+               $('#contact_form textarea').val('');
+                     
+                    //window.location.replace("./thank-you");
+            }
+            
+            $("#result").hide().html(output).slideDown();
+
+            }, 'json');
+
+            
+         
+        }
+    });
+    
+    //reset previously set border colors and hide all message on .keyup()
+    $("#contact_form input, #contact_form textarea").keyup(function() { 
+        $("#contact_form input, #contact_form textarea").css('border-color',''); 
+        $("#result").slideUp();
+    });
+    return false;
+});
+</script> 
+<?php endif; ?>
+
 
 </body>
 </html>
