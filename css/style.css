@@ -969,6 +969,11 @@ html[xmlns] .slider-wrap {display: block;}
 #header .container { position: relative; }
 
 #header.transparent-header {
+	background: transparent;
+	border-bottom: none;
+	z-index: 199;
+}
+.dark-nav #header.transparent-header {
 	background: #222;
 	border-bottom: none;
 	z-index: 199;

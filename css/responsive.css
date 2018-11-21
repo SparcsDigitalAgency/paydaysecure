@@ -1733,3 +1733,18 @@ only screen and (                min-resolution: 2dppx) and (max-width: 991px) {
 	#logo a.retina-logo { display: inline-block; }
 }
 
+@media (max-width: 991px) {
+	#logo {
+    	height: 75px;
+	}
+	#header, #header-wrap, #logo img {
+	    height: 75px;
+	}
+	#primary-menu-trigger {
+	    top: 15px;
+	}
+	#primary-menu-trigger i{
+		font-size: 25px;
+    	color: #fff!important;
+	}
+}

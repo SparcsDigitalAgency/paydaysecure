@@ -74,3 +74,6 @@ include_once('partials/header.php')
     
     
 <?php include_once('partials/footer.php')?>
+<script type="text/javascript">
+        $('body').addClass('dark-nav');
+    </script>

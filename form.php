@@ -36,3 +36,6 @@ document.write('<script id="leadsb2cformsrc" async="async" type="text/javascript
 
 
 <?php include_once('partials/footer.php')?>
+<script type="text/javascript">
+        $('body').addClass('dark-nav');
+    </script>
