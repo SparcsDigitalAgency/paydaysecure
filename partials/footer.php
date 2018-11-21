@@ -14,7 +14,7 @@
 
               <div class="widget clearfix">
 
-                <img src="http://localhost//git/usasecureloans/new-website/images/logo-white.png" alt="" class="footer-logo" style="    margin: -5px 0px 10px 0px;">
+                <img src="http://localhost//git/paydaysecure/images/footer-widget-logo.png" alt="" class="footer-logo" style="    margin: -5px 0px 10px 0px;">
 
                 <p>Here at USASecureLoans.com, We connect you with one of several lenders in our network who can provide you with access to the emergency funds you need, regardless of the reason. We can help you find loans of up to $1,000 without any Hassle.</p>
 
@@ -245,7 +245,6 @@ function validateForm()
  }
 }
 // --></script>
-  ============================================= -->
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
   <script src="<?php echo $path; ?>js/plugins.js"></script>
