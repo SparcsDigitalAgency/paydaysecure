@@ -106,7 +106,7 @@
         <div class="container clearfix">
 
           <div class="col_half">
-            2014 © Copyright USASecureLoans.com
+            2014 © Copyright Paydaysecure.com
           </div>
 
         </div>
