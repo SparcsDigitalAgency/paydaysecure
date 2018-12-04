@@ -47,38 +47,38 @@ include_once('partials/header.php')
 					<div class="clear bottommargin-lg"></div>
 
 					<div id="section-features" class="heading-block title-center page-section">
-						<h2>Features Overview</h2>
-						<span>Some of the Features that are gonna blow your mind off</span>
+						<h2>Process Steps</h2>
+						<!-- <span>Some of the Features that are gonna blow your mind off</span> -->
 					</div>
 
 					<div class="row">
 	<div class="col-md-6 padding50">
 		<div class="feature-box fbox-plain">
 			<div class="fbox-icon" data-animate="bounceIn">
-				<a href="#"><img src="<?php echo $path; ?>images/icons/features/responsive.png" alt="Responsive Layout"></a>
+				<a href="#"><img src="<?php echo $path; ?>images/icons/features/icon1.png" alt="Responsive Layout"></a>
 			</div>
-			<h3>Responsive Layout</h3>
-			<p>Powerful Layout with Responsive functionality that can be adapted to any screen size. Resize browser to view.</p>
+			<h3>Start For A Loan</h3>
+			<p>Start at this page to complete your application in minutes.</p>
 		</div>
 	</div>
 
 	<div class="col-md-6 padding50">
 		<div class="feature-box fbox-plain">
 			<div class="fbox-icon" data-animate="bounceIn" data-delay="200">
-				<a href="#"><img src="<?php echo $path; ?>images/icons/features/retina.png" alt="Retina Graphics"></a>
+				<a href="#"><img src="<?php echo $path; ?>images/icons/features/icon2.png" alt="Retina Graphics"></a>
 			</div>
-			<h3>Retina Graphics</h3>
-			<p>Looks beautiful &amp; ultra-sharp on Retina Screen Displays. Retina Icons, Fonts &amp; all others graphics are optimized.</p>
+			<h3>Loan Approval</h3>
+			<p>We will Quickly try to find a lender based upon your requirements.</p>
 		</div>
 	</div>
 
 	<div class="col-md-6 padding50">
 		<div class="feature-box fbox-plain">
 			<div class="fbox-icon" data-animate="bounceIn" data-delay="400">
-				<a href="#"><img src="<?php echo $path; ?>images/icons/features/performance.png" alt="Powerful Performance"></a>
+				<a href="#"><img src="<?php echo $path; ?>images/icons/features/icon3.png" alt="Powerful Performance"></a>
 			</div>
-			<h3>Powerful Performance</h3>
-			<p>Canvas includes tons of optimized code that are completely customizable and deliver unmatched fast performance.</p>
+			<h3>Connect With Lenders</h3>
+			<p>You will be redirected to lender's website to review loan terms and conditions.</p>
 		</div>
 	</div>
 
@@ -86,10 +86,10 @@ include_once('partials/header.php')
 	<div class="col-md-6 padding50">
 		<div class="feature-box fbox-plain">
 			<div class="fbox-icon" data-animate="bounceIn" data-delay="600">
-				<a href="#"><img src="<?php echo $path; ?>images/icons/features/flag.png" alt="Responsive Layout"></a>
+				<a href="#"><img src="<?php echo $path; ?>images/icons/features/icon4.png" alt="Responsive Layout"></a>
 			</div>
-			<h3>Endless Possibilities</h3>
-			<p>You have complete easy control on each &amp; every element that provides endless customization possibilities.</p>
+			<h3>Get Cash In The Bank</h3>
+			<p>If you agree to loan terms, you'll receive the cash in your bank account next day.</p>
 		</div>
 	</div>
 </div>
@@ -102,8 +102,7 @@ include_once('partials/header.php')
 				<div class="container clearfix">
 
 					<div id="section-specs" class="heading-block title-center page-section">
-						<h2>Product Specifications</h2>
-						<span>Complete list of the Tech Specifications for your understanding</span>
+						<h2>Frequently Asked Questions</h2>
 					</div>
 
 					<div id="side-navigation">
@@ -111,11 +110,11 @@ include_once('partials/header.php')
 						<div class="col_one_third">
 
 							<ul class="sidenav">
-								<li class="ui-tabs-active"><a href="#snav-content1"><i class="icon-screen"></i>Responsive Layout<i class="icon-chevron-right"></i></a></li>
-								<li><a href="#snav-content2"><i class="icon-magic"></i>Retina Ready Display<i class="icon-chevron-right"></i></a></li>
-								<li><a href="#snav-content3"><i class="icon-tint"></i>Unlimited Color Options<i class="icon-chevron-right"></i></a></li>
-								<li><a href="#snav-content4"><i class="icon-gift"></i>Bootstrap 3.1 Compatible<i class="icon-chevron-right"></i></a></li>
-								<li><a href="#snav-content5"><i class="icon-adjust"></i>Light &amp; Dark Scheme<i class="icon-chevron-right"></i></a></li>
+								<li class="ui-tabs-active"><a href="#snav-content1">Qualification<i class="icon-chevron-right"></i></a></li>
+								<li><a href="#snav-content2"></i>What you need?<i class="icon-chevron-right"></i></a></li>
+								<li><a href="#snav-content3"></i>What is the cost?<i class="icon-chevron-right"></i></a></li>
+								<li><a href="#snav-content4"></i>When and how do I repay?<i class="icon-chevron-right"></i></a></li>
+								<li><a href="#snav-content5"></i>Is an extension possible?<i class="icon-chevron-right"></i></a></li>
 							</ul>
 
 						</div>
@@ -123,28 +122,31 @@ include_once('partials/header.php')
 						<div class="col_two_third col_last">
 
 							<div id="snav-content1">
-								<h3>Ultra Responsive Template</h3>
+								<h3>Who can qualify for a cash advance or payday loan?</h3>
 
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, ex, inventore, tenetur, repellat ipsam soluta libero amet nam aspernatur perspiciatis quos praesentium et debitis ea odit enim illo aliquid eligendi numquam neque. Ipsum, voluptatibus, perspiciatis a quam aliquid cumque cupiditate id ipsa tempora eveniet. Cupiditate, necessitatibus, consequatur odio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, vitae, laboriosam libero nihil labore hic modi? Odit, veritatis nulla molestiae!
+								Be employed in your current position for around 90 days at least
+								Be older than 18 years of age, be a US citizen or a permanent resident
+								You should have a salary of $1000 each month after tax deductions
+								Have a valid email address, work phone number and home phone.
 							</div>
 
 							<div id="snav-content2">
-								<h3>Retina Ready Display</h3>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, voluptatem reprehenderit natus facilis id deserunt iusto incidunt cumque odit molestias iste dolor eum esse soluta facere quidem minima in voluptate explicabo ducimus alias ratione aut molestiae omnis fuga labore quod optio modi voluptatum nemo suscipit porro maxime ex. Maiores, ratione eligendi labore quaerat veniam laborum nam rem delectus illum aspernatur quas sequi animi quae nulla alias hic inventore ex perspiciatis nisi consequatur enim a aut dolorum modi quod perferendis dicta impedit magni placeat repellat. Soluta, dicta, dolores, reiciendis, eum accusamus esse et debitis rem fugit fugiat dignissimos pariatur sint quod laborum autem. Nulla, ducimus, culpa, vel esse unde sapiente expedita corrupti consectetur veritatis quas autem laborum mollmquam amet eius. Numquam, ad, quaerat, ab, deleniti rem quae doloremque tenetur ea illum hic amet dolor suscipit porro ducimus excepturi perspiciatis modi praesentium voluptas quos expedita provident adipisci dolorem! Aliquam, ipsum voluptatem et voluptates impedit ab libero similique a. Nisi, ea magni et ab voluptatum nemo numquam odio quis libero aspernatur architecto tempore qui quisquam saepe corrupti necessitatibus natus quos aliquid non voluptatibus quod obcaecati fugiat quibusdam quidem inventore quia eveniet iusto culpa incidunt vero vel in accusamus eum. Molestiae nihil voluptate molestias illum eligendi esse nesciunt.
+								<h3>Will I need a printer or fax machine?</h3>
+								You should have printer in order to print out the loan documents. Also the lender who receives your inquiry will also need for you to fax over the information to them. Information such as your bank statement and a pay stub will need to be faxed over. If you do not have a fax machine you can always use ones available at Office Max, Kinkos, Mail Boxes, Stables etc.
 							</div>
 
 							<div id="snav-content3">
-								<h3>Unlimited Color Options</h3>Dolor aperiam modi aliquam dolores consequatur error commodi ad eius incidunt! Libero, odio incidunt ullam sunt fugiat? Laboriosam, perferendis, debitis, harum soluta iste eos sunt odit architecto porro eveniet sint optio nihil animi. Laudantium, quam, culpa, velit molestias exercitationem reprehenderit enim distinctio aliquam aut ex numquam sequi assumenda veritatis fuga voluptatum. Magni, voluptates adipisci unde sapiente eligendi ea maxime tempora pariatur ipsa.. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, aspernatur, saepe, quidem animi hic rem libero earum fuga voluptas culpa iure qui accusantium ab quae dolorum laborum quia repellat fugit aut minima molestias placeat mollitia doloribus quibusdam consectetur officia nesciunt ad. Ab, quod ipsum commodi assumenda doloribus possimus sed laudantium.Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+								<h3>What is the cost?</h3>There is no cost to use USASecureLoans.com matching service. The fees of the loan will vary depending on the amount and the lender. The lender will notify you of the exact fees for the loan once on their website. However, please bear in mind that cash advance loans have been designed with emergency needs in mind and will be lower in terms of expense as compared to late charges, check fees etc. which you may incur if you are late with payments.
 							</div>
 
 							<div id="snav-content4">
-								<h3>Bootstrap v3.2.0 Compatiable</h3>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, nostrum, dolores id quo nam repudiandae ad culpa architecto minima nemo eaque soluta nulla laborum neque provident saepe facilis expedita numquam quas alias in perferendis accusamus ipsam blanditiis sit voluptatem temporibus vero error veritatis repellat eos reiciendis repellendus quam. Officia dicta ipsam nostrum aperiam. Dolor, expedita enim modi nostrum commodi sint architecto aliquam aut mollitia repellendus deserunt quaerat aspernatur aperiam voluptatibus consequatur rerum consequuntur.
+								<h3>When and how do I repay this loan?</h3>
+								Both the loan fees and the amount is withdrawn directly from your checking account once the due date has been reached. You will not have to think twice about it! This saves you from having to visit any store. An extension can be requested by contacting your lender prior to the due date. But there will be additional fees which apply to the extension.
 							</div>
 
 							<div id="snav-content5">
-								<h3>Light &amp; Dark Scheme Available</h3>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, temporibus, maxime, laudantium quidem sapiente deserunt error rerum illum explicabo voluptate velit tempora cupiditate reprehenderit consequuntur nemo in et blanditiis soluta tempore perspiciatis at atque excepturi culpa facere sequi impedit cumque illo molestias saepe eveniet ducimus fugiat reiciendis unde. Modi, at laboriosam ex velit commodi officiis! Neque, consequatur, modi, nulla, voluptatem quibusdam incidunt minus dolores repellat nihil consectetur ducimus aliquid. Eaque, tempora voluptatum accusantium expedita obcaecati magnam voluptates consequatur ut harum rem dolor id error. Officia, repudiandae, eos, quibusdam porro eius esse cupiditate non fugit dignissimos delectus et tempora sequi fugiat quo voluptatem temporibus vel obcaecati? Laboriosam, quis obcaecati quas veniam repellendus officiis et quos velit id natus mollitia dacilis ipsum et perspiciatis officia iste cupiditate ducimus nisi consequuntur excepturi dolorum. Sint, architecto, cumque facere officia harum dicta perferendis inventore excepturi sequi explicabo provident omnis dolore quasi fugit molestiae atque id consectetur reprehenderit laborum beatae consequatur similique.
+								<h3>Is an extension possible on repaying my loan? And how many extensions can I get?</h3>
+								The state laws on this differ and dictate if a lender can grant you an extension often referred to as a 'rollover'. While some states allow for multiple rollovers, others do not allow it at all. You should ask your lender about anything concerning rollovers / extensions. Also make sure to contact your lender with an extension request prior to the due date of your payment. If you do not do it in time the lender will charge you additional fee and ask for immediate payment of the remaining balance. Also additional fees and other charges may be levied on you if you default.
 							</div>
 
 						</div>

@@ -1,31 +1,62 @@
-<form action="https://www.usasecureloans.com/payday-loan.html" method="get" name="ShortForm" class="landing-wide-form landing-form-overlay dark nobottommargin clearfix">
+<style type="text/css">
+  .slidecontainer {
+    width: 100%;
+}
+  .slidecontainer p{
+    color: #fff;
+    font-weight: bold;
+        margin-bottom: 15px;
+        margin-top:10px;
+        font-size: 1.3rem;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 10px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 1;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #00ab4d;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    background: #00ab4d;
+    cursor: pointer;
+}
+.success{background:#CFFFF5;}
+.error{background-color: #e30000}
+.errorTextBox {
+    border: 1px solid #cc0000 !important;
+}
+</style>
+
+<form action="form.php" method="get" name="ShortForm" class="landing-wide-form landing-form-overlay dark nobottommargin clearfix">
             <div class="heading-block nobottommargin nobottomborder text-center">
               <h2>Get Started</h2>
             </div>
             <div class="col_full">
-              <!-- <div class="pb_select-wrap">
-                  <select  size="1" onchange=""  name="RequestedAmount" tabindex="1" class="form-control pb_height-50 reverse">
-                    <option value="" selected="">Select Loan Amount</option>
-                    <option value="100">$100</option>
-                    <option value="200">$200</option>
-                    <option value="300">$300</option>
-                    <option value="400">$400</option>
-                    <option value="500" >$500</option>
-                    <option value="600">$600</option>
-                    <option value="700">$700</option>
-                    <option value="800">$800</option>
-                    <option value="900">$900</option>
-                    <option value="1000">$1000</option>
-                    
-                    <option value="">$100</option>
-                    <option value="">$200</option>
-                    <option value="">$300</option>
-                  </select>
-                </div> -->
-                <div data-role="rangeslider">
-                  <label for="price-min">Loan Amount</label>
-                  <input type="range" min="10" max="1000" step="10" value="300" data-rangeslider style="width: 100%;">
-
+                <div class="slidecontainer">
+                  <input type="range" min="100" max="1000" value="500" name="RequestedAmount" step="100" class="slider" id="myRange">
+                  <p>Amount : $<span id="demo"></span></p>
                 </div>
             </div>
             
@@ -57,3 +88,14 @@
               </div>
             </div>
           </form>
+
+<script>
+var slider = document.getElementById("myRange");
+var output = document.getElementById("demo");
+output.innerHTML = slider.value;
+
+slider.oninput = function() {
+  output.innerHTML = this.value;
+}
+</script>
+
