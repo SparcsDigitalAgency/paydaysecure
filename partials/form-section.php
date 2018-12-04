@@ -49,7 +49,7 @@
 }
 </style>
 
-<form action="form.php" method="get" name="ShortForm" class="landing-wide-form landing-form-overlay dark nobottommargin clearfix">
+<form action="<?php echo $path; ?>paydayloan" method="get" name="ShortForm" class="landing-wide-form landing-form-overlay dark nobottommargin clearfix">
             <div class="heading-block nobottommargin nobottomborder text-center">
               <h2>Get Started</h2>
             </div>

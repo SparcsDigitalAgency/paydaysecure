@@ -40,10 +40,10 @@
                 <h4>Quick Links</h4>
 
                 <ul>
-                  <li><a href="http://codex.wordpress.org/">Marketing Practices</a></li>
-                  <li><a href="http://wordpress.org/support/forum/requests-and-feedback">How It Works?</a></li>
-                  <li><a href="http://wordpress.org/extend/plugins/">Blog</a></li>
-                  <li><a href="http://wordpress.org/support/">Contact</a></li>
+                  <li><a href="<?php echo $path; ?>marketing-practices">Marketing Practices</a></li>
+               <li><a href="<?php echo $path; ?>how-it-works">How It Works?</a></li>
+               <li><a href="<?php echo $path; ?>blog">Blog</a></li>
+               <li><a href="<?php echo $path; ?>contact">Contact</a></li>
                 </ul>
 
               </div>
@@ -56,10 +56,10 @@
                 <h4>Information Links</h4>
 
                 <ul>
-                  <li><a href="http://codex.wordpress.org/">Rates & Fees</a></li>
-                  <li><a href="http://wordpress.org/support/forum/requests-and-feedback">Terms & Conditions</a></li>
-                  <li><a href="http://wordpress.org/extend/plugins/">Privacy Policy</a></li>
-                  <li><a href="http://wordpress.org/support/">FAQ's</a></li>
+                  <li><a href="<?php echo $path; ?>rates">Rates & Fess</a></li>
+               <li><a href="<?php echo $path; ?>terms">Terms & Conditions</a></li>
+               <li><a href="<?php echo $path; ?>privacy">Privacy Policy</a></li>
+               <li><a href="<?php echo $path; ?>faq">FAQ's</a></li>
                 </ul>
               </div>
 
