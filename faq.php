@@ -32,8 +32,8 @@ include_once('partials/header.php')
         <div class="container">
             <div class="row">
                 <div class="col-lg-8">
-                    <p>USASecureLoans.com is a matching service which submits your inquiry to its network of lenders. There is no cost for submitting an inquiry. The fees and rates are quoted directly by the lender which is matched to your profile. USASecureLoans.com is not a lender and will not provide you or anyone else with lending services.</p>
-                    <p>It is understandable for new customers to have questions about USASecureLoans.com which is why we have compiled the most common questions into this FAQ. If you have any question not answered in this FAQ we'll be glad to answer them. All you've got to do is to contact us and allow some time to receive an email response.</p>
+                    <p>PaydaySecure.com is a matching service which submits your inquiry to its network of lenders. There is no cost for submitting an inquiry. The fees and rates are quoted directly by the lender which is matched to your profile. PaydaySecure.com is not a lender and will not provide you or anyone else with lending services.</p>
+                    <p>It is understandable for new customers to have questions about PaydaySecure.com which is why we have compiled the most common questions into this FAQ. If you have any question not answered in this FAQ we'll be glad to answer them. All you've got to do is to contact us and allow some time to receive an email response.</p>
                     <p>Any questions pertaining to loan payments, application status and extensions etc need to be directed to the lender to whom you submitted your application to. Once your application has been submitted on the lender's website you'll receive the lender's contact info.</p>
                     <ul>
                         <li><a href="#link1">What is a payday loan or cash advance?</a></li>
@@ -51,7 +51,7 @@ include_once('partials/header.php')
                         <li><a href="#link13">When can I get another loan?</a></li>
                         <li><a href="#link14">Is an extension possible on repaying my loan? And how many extensions can I get?</a></li>
                         <li><a href="#link15">What happens if I'm not able to repay my loan?</a></li>
-                    </ol>
+                    </ul>
                     <ul>
                         <li>
                             <strong><a href="#" name="link1">What is a payday loan or cash advance?</a></strong>
@@ -88,7 +88,7 @@ include_once('partials/header.php')
                         </li>
                         <li>
                             <strong><a href="#" name="link8">What is the cost?</a></strong>
-                            <p>There is no cost to use USASecureLoans.com matching service. The fees of the loan will vary depending on the amount and the lender. The lender will notify you of the exact fees for the loan once on their website. However, please bear in mind that cash advance loans have been designed with emergency needs in mind and will be lower in terms of expense as compared to late charges, check fees etc. which you may incur if you are late with payments.</p>
+                            <p>There is no cost to use PaydaySecure.com matching service. The fees of the loan will vary depending on the amount and the lender. The lender will notify you of the exact fees for the loan once on their website. However, please bear in mind that cash advance loans have been designed with emergency needs in mind and will be lower in terms of expense as compared to late charges, check fees etc. which you may incur if you are late with payments.</p>
                         </li>
                         <li>
                             <strong><a href="#" name="link9">If I have an outstanding cash advance loan is it possible to get a new one?</a></strong>
@@ -118,8 +118,7 @@ include_once('partials/header.php')
                             <strong><a href="#" name="link15">What happens if I'm not able to repay my loan?</a></strong>
                             <p>Lenders are always determined to pursue collections after the due date of their accounts to the fullest legal extent. You may have to face criminal charges and additional fees if you do not repay on time.</p>
                         </li>
-                    </ol>           
-
+                    </ul> 
                 </div>
                 <div class="col-lg-4">
                     <?php include_once('partials/form-section.php')?>
@@ -128,7 +127,7 @@ include_once('partials/header.php')
         </div>
         
     </section>
-  
+  <?php include_once('partials/notice.php')?>
   <?php include_once('partials/footer.php')?>
   <script type="text/javascript">
         $('body').addClass('dark-nav');

@@ -33,9 +33,9 @@ include_once('partials/header.php')
             <div class="row">
                 <div class="col-lg-8">
                     <p>
-                        Submitting your inquiry for a loan at USASecureLoans.com incurs absolutely no cost.
-                        USASecureLoans.com is not a lender and does not provide lending services directly
-                        to consumers. Based on the information you submit, USASecureLoans.com searches its
+                        Submitting your inquiry for a loan at PaydaySecure.com incurs absolutely no cost.
+                        PaydaySecure.com is not a lender and does not provide lending services directly
+                        to consumers. Based on the information you submit, PaydaySecure.com searches its
                         database housing its vast network of lenders to pair you with the lender and loan
                         that may be suited to your needs so that you can submit an application directly
                         to the lender.
@@ -60,7 +60,7 @@ include_once('partials/header.php')
                     </p>
                     <p>
                         The loan fees and interest rates are determined solely by your lender, with specific
-                        amounts determined based upon the information you submitted to the lender. USASecureLoans.com
+                        amounts determined based upon the information you submitted to the lender. PaydaySecure.com
                         has no control or knowledge of the loan details between you and your lender. You
                         are under no obligation to continue with the application process if you find a particular
                         lender’s loan terms unsuitable.
@@ -81,7 +81,7 @@ include_once('partials/header.php')
                     </p>
                     <p>
                         Additional fees or charges may apply to you in the event that you are unable to
-                        repay your loan. USASecureLoans.com uses commercially reasonable efforts to work
+                        repay your loan. PaydaySecure.com uses commercially reasonable efforts to work
                         only with reputable lenders dedicated to pursuing collections of past due accounts
                         with conduct that is fair and reasonable. Find your state in the list down below
                         to review the legal repercussions applicable to you in the case of non-payment.
@@ -257,7 +257,7 @@ include_once('partials/header.php')
                             <td>
                                 <p>
                                     <span>
-                                        The law does not always change. However, keep checking back to USASecureLoans.com
+                                        The law does not always change. However, keep checking back to PaydaySecure.com
                                         to stay posted.
                                     </span>
                                 </p>
@@ -290,7 +290,7 @@ include_once('partials/header.php')
                             <td>
                                 <p>
                                     <span>
-                                        The law does change. Please check back to USASecureLoans.com for up to date
+                                        The law does change. Please check back to PaydaySecure.com for up to date
                                         info on this.
                                     </span>
                                 </p>

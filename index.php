@@ -18,13 +18,9 @@ include_once('partials/header.php')
 		<section id="slider" class="slider-element" style="background: url(<?php echo $path; ?>images/landing2.jpg) center; overflow: visible;" data-height-xl="500" data-height-lg="500" data-height-md="600" data-height-sm="600" data-height-xs="600">
 			<div class="container clearfix">
 
-				<div class="contact-widget" data-loader="button">
-
-					 <div class="contact-form-result"></div>
-					
 					
 					<?php  include_once('partials/form-section.php') ?>
-				</div>
+				
 
 			</div>
 		</section>
@@ -136,7 +132,7 @@ include_once('partials/header.php')
 							</div>
 
 							<div id="snav-content3">
-								<h3>What is the cost?</h3>There is no cost to use USASecureLoans.com matching service. The fees of the loan will vary depending on the amount and the lender. The lender will notify you of the exact fees for the loan once on their website. However, please bear in mind that cash advance loans have been designed with emergency needs in mind and will be lower in terms of expense as compared to late charges, check fees etc. which you may incur if you are late with payments.
+								<h3>What is the cost?</h3>There is no cost to use PaydaySecure.com matching service. The fees of the loan will vary depending on the amount and the lender. The lender will notify you of the exact fees for the loan once on their website. However, please bear in mind that cash advance loans have been designed with emergency needs in mind and will be lower in terms of expense as compared to late charges, check fees etc. which you may incur if you are late with payments.
 							</div>
 
 							<div id="snav-content4">

@@ -49,7 +49,12 @@
 }
 </style>
 
-<form action="<?php echo $path; ?>paydayloan" method="get" name="ShortForm" class="landing-wide-form landing-form-overlay dark nobottommargin clearfix">
+<div class="contact-widget" data-loader="button">
+
+                         <div class="contact-form-result"></div>
+                        
+                        
+                        <form action="<?php echo $path; ?>paydayloan" method="get" name="ShortForm" class="landing-wide-form landing-form-overlay dark nobottommargin clearfix">
             <div class="heading-block nobottommargin nobottomborder text-center">
               <h2>Get Started</h2>
             </div>
@@ -88,6 +93,10 @@
               </div>
             </div>
           </form>
+                    </div>
+
+
+
 
 <script>
 var slider = document.getElementById("myRange");

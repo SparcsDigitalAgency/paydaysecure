@@ -13795,3 +13795,14 @@ button {
 	padding: 50px;
 }
 
+
+.table-bordered th{
+	color: #fff;
+    background: #00ab4d;
+}
+.faq_section_1 #consent_title, .rates_section_1 #consent_title, .terms_section_1 #consent_title, .privacy_section_1 #consent_title, .contact_section_1 #consent_title {
+    font-size: 0.8rem;
+}
+.sec-ico span {
+    color: #fff;
+}
